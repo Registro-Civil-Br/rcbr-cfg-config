@@ -1,6 +1,9 @@
 server:
   port: 8081
 
+spring:
+  zipkin: http://127.0.0.1:9411/
+
 # Configurações Eureka
 eureka:
   client:

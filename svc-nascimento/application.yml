@@ -1,6 +1,7 @@
 server:
   port: 8082
 spring:
+  zipkin: http://127.0.0.1:9411/
   datasource:
     driverClassName: org.h2.Driver
     initialization-mode: always
