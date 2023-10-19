@@ -3,6 +3,7 @@ server:
 
 # CONFIGURAÇÕES GATEWAY
 spring:
+  zipkin: http://127.0.0.1:9411/
   cloud:
     gateway:
       actuator:
