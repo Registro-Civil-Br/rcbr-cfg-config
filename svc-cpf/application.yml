@@ -1,16 +1,6 @@
 server:
   port: 8081
 
-# Configurações Actuator
-management:
-  endpoints:
-    web:
-      base-path: /actuator
-  health:
-    binders:
-      enabled:
-        false
-
 # Configurações Eureka
 eureka:
   client:

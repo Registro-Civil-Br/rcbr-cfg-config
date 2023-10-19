@@ -1,0 +1,9 @@
+# Configurações Actuator
+management:
+  endpoints:
+    web:
+      base-path: /actuator
+  health:
+    binders:
+      enabled:
+        false
